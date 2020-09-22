@@ -102,8 +102,6 @@ function wagesEarnedOnDate(date) {
 
 function calculatePayroll(employee) {
 
-
-
     return employee.reduce((accum, current) => accum + allWagesFor.apply(current), 0)
 
 
